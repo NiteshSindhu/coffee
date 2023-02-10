@@ -1,0 +1,30 @@
+#filsort{
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: row-reverse;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+#filsort>select{
+    height: 40px;font-size: 18px;font-weight: 600; padding: 0.2rem;
+}
+#books>div{
+    display: flex;
+    background-color: #d9d9d9;
+    width: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;gap: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+#books>div>div:first-child{
+    height: 40vh;width: 30%;
+}
+#books>div>div:first-child>img{
+    width: 100%;height: 100%;
+}
+#books>div>div:last-child>p{font-weight: 600;}
+#books>div>div:last-child>button{
+    background-color: rgb(109, 229, 54);
+    color: white;border: none;padding: 0.5rem 1rem;border-radius: 3px;font-weight: 700;
+}

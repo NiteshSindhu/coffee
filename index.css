@@ -1,0 +1,26 @@
+#library{
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;margin: auto; padding: 2rem;
+}
+#library>h1{
+    font-weight: 700;
+}
+#library>div{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 2rem;
+    margin: auto;
+}
+#library>div>button{
+    padding: 0.5rem 1rem;
+    font-size: 18px;font-weight: 700;
+    border:none; border-radius: 0.5rem;
+    background-color: teal;color: white;
+}
+#library>div>button:hover{
+    background-color: rgb(109, 229, 54);
+}
