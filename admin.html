@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/admin.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="formdiv">
+        <form id="form">
+          <label for="url" ><span class="span">Url :</span>
+            <input type="url" id="url" />
+          </label>
+          <label for="name"><span class="span">Name : </span><input type="text" id="name"/></label>
+          <label for="author"><span class="span">Author :</span>
+            <input type="text" id="author" />
+          </label>
+          <label>
+            <span class="span">Genre :</span>
+            <select id="genre">
+              <option value="Science">Science</option>
+              <option value="Fiction">Fiction</option>
+              <option value="History">History</option>
+              <option value="Tech">Tech</option>
+              <option value="Business">Business</option>
+            </select></label
+          >
+          <label
+            ><span class="span">Edition :</span>
+            <select id="edition">
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+            </select></label
+          >
+          <label for="publisher"
+            ><span class="span">Publisher :</span>
+            <input type="text" id="publisher" />
+          </label>
+          <label for="cost">
+            <span class="span">Cost :</span>
+            <input type="number" id="cost" />
+          </label>
+          <button type="submit" id="btn">Submit</button>
+        </form>
+      </div>
+      <div id="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Edition</th>
+              <th>Publisher</th>
+              <th>Cost</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./Scripts/admin.js"></script>
+

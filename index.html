@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div id="library">
+      <h1>Library App</h1>
+      <div>
+        <button onclick="gotouser()">USER</button>
+        <button onclick="gotoadmin()">Admin</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+    function gotouser(){
+        window.location.href=`./user.html`
+    }
+    function gotoadmin(){
+        window.location.href=`./adminlogin.html`
+    }
+</script>
